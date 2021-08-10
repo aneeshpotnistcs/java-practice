@@ -9,21 +9,22 @@ public class MethodOverloading {
 	}
 }
 
-class User1{//super class
+class User1 {// super class
 	public void work() {
-		
+
 		System.out.println("user is working");
 	}
-	
+
 	public void work(int duration) {
 		System.out.println("user is working for " + duration + " hours");
 	}
+
 	public void work(String duration) {
 		System.out.println("user is working for " + duration + " hours");
 	}
 }
 
-class Employee1 extends User1{//sub class
+class Employee1 extends User1 {// sub class
 	@Override
 	public void work() {
 		super.work();
