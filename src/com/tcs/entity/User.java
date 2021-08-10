@@ -3,6 +3,7 @@ package com.tcs.entity;
 public class User {
 	private String name;
 	private Long mobileNumber;
+	private ROLE role;
 	private byte age;
 	
 //custom constructor
