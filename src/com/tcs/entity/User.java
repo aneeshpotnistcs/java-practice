@@ -4,6 +4,18 @@ public class User {
 	private String name;
 	private Long mobileNumber;
 	private byte age;
+	
+//custom constructor
+	public User(String name, Long mobileNumber, byte age) {
+		this(name, mobileNumber);
+		this.age = age; 
+	}
+//overloaded constructor
+	public User(String name, Long mobileNumber) {
+		super();
+		this.mobileNumber = mobileNumber;
+		this.name = name;
+	}
 
 	public void workout() {
 		System.out.println(name + " is working out");
