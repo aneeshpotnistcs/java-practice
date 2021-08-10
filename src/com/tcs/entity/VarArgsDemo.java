@@ -19,7 +19,7 @@ class Student{
 //		this.subjects = subjects;
 //	}
 	
-	public Student(String... subjects) {//VarArgs
+	public Student(String... subjects) {//VarArgs, more flexible can also pass string
 		this.subjects = subjects;
 	}
 }
