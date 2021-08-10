@@ -10,7 +10,7 @@ public class MethodOverloading {
 }
 
 class User1 {// super class
-	public void work() {
+	protected void work() {
 
 		System.out.println("user is working");
 	}
