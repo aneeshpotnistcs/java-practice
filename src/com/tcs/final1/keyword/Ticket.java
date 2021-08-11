@@ -1,12 +1,20 @@
 package com.tcs.final1.keyword;
 
-public final class Ticket {//immutable
-	private String movie;
+public class Ticket {// immutable
+	private final String movie = "IT";
 	private float price;
+
+	public final void sell() {
+
+	}
+
+	public final void sell(float price) {
+
+	}
 }
 
-
-
-
-
-
+//class IllegalTicket extends Ticket {
+//	public void sell() {
+//
+//	}
+//}
