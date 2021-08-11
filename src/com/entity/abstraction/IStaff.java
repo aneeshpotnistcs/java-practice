@@ -1,6 +1,6 @@
 package com.entity.abstraction;
 
-public abstract class Staff {
+public abstract class IStaff {
 	private String name;
 
 	public void fillTimesheet() {
@@ -11,7 +11,7 @@ public abstract class Staff {
 
 }
 
-class HR extends Staff {
+class HR extends IStaff {
 	@Override
 	public void work() {
 		System.out.println("HR is working");
@@ -19,7 +19,7 @@ class HR extends Staff {
 
 }
 
-class Guard extends Staff {
+class Guard extends IStaff {
 	public void work() {
 		System.out.println("Guard is working");
 

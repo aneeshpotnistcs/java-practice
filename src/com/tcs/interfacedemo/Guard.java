@@ -1,6 +1,6 @@
 package com.tcs.interfacedemo;
 
-public class Guard implements Staff{
+public class Guard implements IStaff{
 	
 	@Override
 	public void work() {
