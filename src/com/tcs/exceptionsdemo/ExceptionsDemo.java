@@ -1,4 +1,4 @@
-package exceptionsdemo;
+package com.tcs.exceptionsdemo;
 
 public class ExceptionsDemo {
 	
