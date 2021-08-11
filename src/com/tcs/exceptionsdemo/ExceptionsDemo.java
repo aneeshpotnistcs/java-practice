@@ -5,12 +5,17 @@ public class ExceptionsDemo {
 public static void main(String[] args)throws MyCheckedException {
 		try {
 			demo2();
-		} catch (MyCheckedException e) {
+		}catch(InvalidInputException e){
+			
+		}catch (MyCheckedException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+		finally {
+			System.out.println("always called");
+		}
 	}
-	public static void demo2() throws MyCheckedException{
+	public static void demo2() throws MyCheckedException, InvalidInputException{
 		throw new MyCheckedException();
 	}
 	public static void demo1() {
