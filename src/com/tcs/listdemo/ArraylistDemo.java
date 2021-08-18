@@ -54,7 +54,6 @@ public class ArraylistDemo {
 
 			@Override
 			public int compare(Integer o1, Integer o2) {
-				// TODO Auto-generated method stub
 				return o2 - o1;
 			}
 		});
@@ -62,7 +61,6 @@ public class ArraylistDemo {
 	}
 
 	private static List<Integer> createList() {
-		// TODO Auto-generated method stub
 		List<Integer> numbers = new ArrayList<Integer>();// Generics
 		numbers.add(1);// autoboxing else we would have to write numbers.add(new Integer(1))
 //		numbers.add("Ram");//string is not allowed

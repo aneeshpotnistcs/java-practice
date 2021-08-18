@@ -8,7 +8,7 @@ public static void main(String[] args)throws MyCheckedException {
 		}catch(InvalidInputException e){
 			
 		}catch (MyCheckedException e) {
-			// TODO Auto-generated catch block
+
 			e.printStackTrace();
 		}
 		finally {
@@ -22,7 +22,7 @@ public static void main(String[] args)throws MyCheckedException {
 		try {
 			System.out.println(1/0);
 		} catch (ArithmeticException ex) {
-			// TODO Auto-generated catch block
+
 			ex.printStackTrace();
 			System.out.println("division by zero not allowed");
 		}

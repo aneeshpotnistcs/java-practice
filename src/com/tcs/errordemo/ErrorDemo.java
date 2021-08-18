@@ -10,7 +10,7 @@ public class ErrorDemo {
 //		try {
 			infiniteMethod();
 //		} catch (Exception e) {
-//			// TODO Auto-generated catch block
+
 //			e.printStackTrace();
 //		}
 	
